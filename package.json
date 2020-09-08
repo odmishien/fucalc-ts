@@ -42,7 +42,6 @@
     "oclif"
   ],
   "license": "ISC",
-  "main": "index.js",
   "oclif": {
     "bin": "fucalc-ts"
   },
