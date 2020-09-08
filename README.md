@@ -26,7 +26,7 @@ $ npm install -g fucalc-ts
 $ fucalc-ts COMMAND
 running command...
 $ fucalc-ts (-v|--version|version)
-fucalc-ts/1.0.2 darwin-x64 node-v14.4.0
+fucalc-ts/1.0.3 darwin-x64 node-v14.4.0
 $ fucalc-ts --help [COMMAND]
 USAGE
   $ fucalc-ts COMMAND

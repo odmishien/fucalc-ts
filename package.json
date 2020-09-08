@@ -1,7 +1,7 @@
 {
   "name": "fucalc-ts",
   "description": "the app for calculating fu in mahjong.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "odmishien",
   "bin": {
     "fucalc-ts": "./bin/run"
