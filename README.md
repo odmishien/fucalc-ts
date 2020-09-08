@@ -12,7 +12,6 @@ CLI app for calculating fu in mahjong.
 - [fucalc-ts](#fucalc-ts)
 - [Demo](#demo)
 - [Usage](#usage)
-- [Commands](#commands)
 <!-- tocstop -->
 
 # Demo
@@ -39,7 +38,3 @@ CLI app for calculating fu in mahjong.
 fucalc-ts/1.0.3 darwin-x64 node-v14.4.0
 ```
 <!-- usagestop -->
-# Commands
-<!-- commands -->
-
-<!-- commandsstop -->
