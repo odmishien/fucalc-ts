@@ -10,15 +10,25 @@ the app for calculating fu in mahjong.
 [![License](https://img.shields.io/npm/l/fucalc-ts.svg)](https://github.com/[object Object]/blob/master/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+- [fucalc-ts](#fucalc-ts)
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
 # Usage
 <!-- usage -->
 ```sh-session
 $ npm install -g fucalc-ts
-$ fucalc-ts COMMAND
-running command...
+$ fucalc-ts
+🐑🌙 fucalc-ts
+? 1番目のメンツはどれですか？ 暗順子(🀈 🀉 🀊 )
+? 2番目のメンツはどれですか？ 暗順子(🀈 🀉 🀊 )
+? 3番目のメンツはどれですか？ 暗順子(🀈 🀉 🀊 )
+? 4番目のメンツはどれですか？ 暗順子(🀈 🀉 🀊 )
+? アタマはどれですか？ 場風牌
+? 待ちの形はどれですか？ 単騎
+? アガリ方はどれですか？ ツモ
+
+🀄️あなたの手は 40 (合計:36) 符です🀄️
 $ fucalc-ts (-v|--version|version)
 fucalc-ts/1.0.0 darwin-x64 node-v14.4.0
 $ fucalc-ts --help [COMMAND]
