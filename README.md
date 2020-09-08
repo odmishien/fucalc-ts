@@ -13,10 +13,13 @@ CLI app for calculating fu in mahjong.
 - [Demo](#demo)
 - [Usage](#usage)
 - [Commands](#commands)
+<!-- tocstop -->
 
 # Demo
+<!-- demo -->
 ![fucalc-demo](https://user-images.githubusercontent.com/25533384/92455643-eb4d8480-f1fc-11ea-88b4-53b30e581ff2.gif)
-<!-- tocstop -->
+<!-- demostop -->
+
 # Usage
 <!-- usage -->
 ```sh-session
