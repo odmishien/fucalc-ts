@@ -1,0 +1,61 @@
+{
+  "name": "fucalc-ts",
+  "description": "the app for calculating fu in mahjong.",
+  "version": "1.0.0",
+  "author": "odmishien",
+  "bin": {
+    "fucalc-ts": "./bin/run"
+  },
+  "bugs": {
+    "url": "https://github.com/odmishien/fucalc-ts/issues"
+  },
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.0",
+    "inquirer": "^7.3.3",
+    "tslib": "^1.13.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "@types/eslint": "^7.2.2",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^10.17.29",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "eslint-config-oclif-typescript": "^0.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "typesync": "^0.7.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/odmishien/fucalc-ts#readme",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "oclif": {
+    "bin": "fucalc-ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odmishien/fucalc-ts.git"
+  },
+  "scripts": {
+    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md",
+    "preinstall": "typesync || :"
+  },
+  "types": "lib/index.d.ts"
+}
