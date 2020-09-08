@@ -1,7 +1,7 @@
 fucalc-ts
 =========
 
-the cli app for calculating fu in mahjong.
+CLI app for calculating fu in mahjong.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/fucalc-ts.svg)](https://npmjs.org/package/fucalc-ts)
