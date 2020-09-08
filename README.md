@@ -19,7 +19,6 @@ the app for calculating fu in mahjong.
 ```sh-session
 $ npm install -g fucalc-ts
 $ fucalc-ts
-🐑🌙 fucalc-ts
 ? 1番目のメンツはどれですか？ 暗順子(🀈 🀉 🀊 )
 ? 2番目のメンツはどれですか？ 暗順子(🀈 🀉 🀊 )
 ? 3番目のメンツはどれですか？ 暗順子(🀈 🀉 🀊 )
